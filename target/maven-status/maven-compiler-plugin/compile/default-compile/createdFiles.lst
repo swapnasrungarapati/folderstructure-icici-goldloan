@@ -1,0 +1,10 @@
+icici\starter\bean\Lists.class
+icici\starter\bean\CarFormMB.class
+icici\starter\bean\InitAppMB.class
+icici\starter\service\CarRepository.class
+icici\starter\model\Car.class
+icici\starter\service\CarService.class
+icici\starter\infra\persistence\EntityManagerProducer.class
+icici\starter\model\Car_.class
+icici\starter\bean\CarListMB.class
+icici\starter\infra\security\LogonMB.class
