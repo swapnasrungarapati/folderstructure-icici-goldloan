@@ -1,6 +1,6 @@
-FROM rmpestano/wildfly:16.0.0
-MAINTAINER Rafael Pestano
+FROM tomcat:8
+MAINTAINER swapna
 
-COPY ./docker/standalone.conf ${WILDFLY_HOME}/bin/
+COPY  target/*.war /usr/local/tomcat/webapps/
 
-COPY ./target/goldloan.war ${DEPLOYMENT_DIR}
+
